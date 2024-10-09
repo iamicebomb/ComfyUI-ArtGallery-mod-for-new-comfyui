@@ -7,6 +7,7 @@
 
 # ComfyUI ArtGallery | Prompt Visualization
 ### 艺术画廊 | 提示词可视化 
+修改 __init.py__ 可以在新版comfyui中载入
 
 https://github.com/ZHO-ZHO-ZHO/ComfyUI-ArtGallery/assets/140084057/51fe3cfe-6b6c-41aa-b172-7ef564aefaa2
 
