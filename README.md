@@ -4,8 +4,8 @@
 <!---
 ![artgallery新项目图](https://github.com/ZHO-ZHO-ZHO/ComfyUI-ArtGallery/assets/140084057/e7f2fde4-d138-4f32-80d1-50cda798992a)
 --->
-# 修改 __init.py__ 可以在新版comfyui中载入
-# update __init.py__ for new comfyui version.
+# 修改 __init.py__ 可以在新版comfyui(0.23)中载入
+# update __init.py__ for new comfyui version.(0.23)
 
 # ComfyUI ArtGallery | Prompt Visualization
 ### 艺术画廊 | 提示词可视化 
