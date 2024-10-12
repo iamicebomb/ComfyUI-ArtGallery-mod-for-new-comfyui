@@ -50,7 +50,8 @@ new_js_content = """
 
 # 文件路径
 current_dir = os.path.dirname(os.path.abspath(__file__))
-uploadimg_js_file_path = os.path.join(current_dir, '../../web/assets/index-BX11rJu2.js')
+#uploadimg_js_file_path = os.path.join(current_dir, '../../web/assets/index-BX11rJu2.js')
+uploadimg_js_file_path = os.path.join(current_dir, '../../web/assets/index-BMC1ey-i.js')
 print(uploadimg_js_file_path)
 
 modify_js_file(uploadimg_js_file_path, new_js_content)
@@ -251,7 +252,8 @@ new_wedgets_js_content_2 = """
 """
 
 # 文件路径
-wedgets_js_file_path = os.path.join(current_dir, '../../web/assets/index-exUB01hM.js')
+#wedgets_js_file_path = os.path.join(current_dir, '../../web/assets/index-exUB01hM.js')
+wedgets_js_file_path = os.path.join(current_dir, '../../web/assets/index-DGAbdBYF.js')
 
 modify_wedgets_js_file(wedgets_js_file_path, new_wedgets_js_content, new_wedgets_js_content_2)
 
