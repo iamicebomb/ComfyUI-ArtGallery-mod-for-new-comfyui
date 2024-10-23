@@ -2,7 +2,7 @@ import os
 
 #uploadimg
 def modify_js_file(file_path, new_content):
-    with open(file_path, 'r', encoding='utf-8') as file:
+    with open(file_path, 'r', encoding='iso-8859-1') as file:
         content = file.read()
 
     # 检查文件中是否已包含需要添加的内容
@@ -59,7 +59,7 @@ modify_js_file(uploadimg_js_file_path, new_js_content)
 
 #folderpath
 def modify_py_file(file_path, new_content, search_line, function_content, search_function):
-    with open(file_path, 'r', encoding='utf-8') as file:
+    with open(file_path, 'r', encoding='iso-8859-1') as file:
         lines = file.readlines()
 
     # 准备新内容和函数内容的关键行用于比较
@@ -131,7 +131,7 @@ modify_py_file(py_file_path, new_py_content, 'folder_names_and_paths["classifier
 
 #wedget
 def modify_wedgets_js_file(file_path, new_content, new_content_2):
-    with open(file_path, 'r', encoding='utf-8') as file:
+    with open(file_path, 'r', encoding='iso-8859-1') as file:
         content = file.read()
 
     # 检查文件中是否已包含需要添加的内容
